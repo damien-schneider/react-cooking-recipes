@@ -19,7 +19,7 @@
 
 .recipe-list .card:hover {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgb(132, 0, 255);
+    border: 1px solid rgb(93, 0, 255);
     margin: 0px 2px;
 }
 
@@ -50,6 +50,15 @@
     text-align: center;
     width: 120px;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 50px;
     margin: 20px auto 0;
+    transition: all 0.1s ease-in;
+    border: 1px solid #e2e2e2;
+}
+
+.recipe-list .card a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid rgb(93, 0, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
