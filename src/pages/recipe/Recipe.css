@@ -37,3 +37,12 @@
 .recipe hr{
     width: 80%;
 }
+
+.recipe.dark {
+    background-color: #777;
+    color: #e4e4e4;
+}
+
+.recipe.dark h2 {
+    color: #e4e4e4;
+}
